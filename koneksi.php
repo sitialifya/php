@@ -1,4 +1,9 @@
 <?php
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+
 $host = "mysql.railway.internal";
 $user = "root";
 $pass = "LZstNchgUtUIzpLIpzjvtJVusCMZscPX"; // Sesuaikan dengan MYSQL_ROOT_PASSWORD di gambar
