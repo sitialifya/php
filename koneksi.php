@@ -1,9 +1,9 @@
 <?php
 // 1. Ambil data dari environment variables Railway.
 // JANGAN mengisi password asli di dalam file ini jika akan di-upload ke GitHub/Public.
-$host = getenv('MYSQLHOST') ?: "mysql.railway.internal";
+$host = getenv('MYSQLHOST') ?: "mysql-0sfr.railway.internal";
 $user = getenv('MYSQLUSER') ?: "root";
-$pass = getenv('MYSQLPASSWORD') ?: ""; // Kosongkan defaultnya untuk keamanan
+$pass = getenv('MYSQLPASSWORD') ?: "dvsFQveoANNUPfFidSzgHwLhZOXqaIFd"; 
 $db   = getenv('MYSQLDATABASE') ?: "railway";
 $port = getenv('MYSQLPORT') ?: 3306;
 
